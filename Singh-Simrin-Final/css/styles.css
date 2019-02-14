@@ -1,0 +1,481 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+body {
+   background-color: whitesmoke;
+}
+
+.parallax { 
+   background-image: url('../img/wecounttoo.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   background-color: lightgray;
+   min-height: 800px;
+ }
+
+.text h1 {
+   position: relative;
+   top: 440px;
+   margin-top: 0px;
+   text-align: left;
+   vertical-align: text-bottom;
+   padding-left: 23px;
+   font-size: 5em;
+   color: white;
+   font-family: 'Lato';
+   font-weight: 300;
+   font-stretch: 20;
+   text-shadow: 3px 3px #8B0000;
+
+}
+
+/* Below is the code for the subheadline text attributes*/
+
+.text p {
+   position: relative;
+   top: 400px;
+   text-align: left;
+   vertical-align: text-bottom;
+   font-size: 1.7em;
+   padding-left: 25px;
+   color: white;
+   font-weight: 300;
+   font-family: 'Lato';
+   text-shadow: 1px 1px #000000;
+}
+
+.img1 {
+   background-image: url('../img/wecounttoo.jpg');
+}
+
+.img2 {
+   background-image: url('../img/volunteer.jpg');
+}
+
+/* Below is the style for the boxes of text on the page*/
+
+.content1 {
+   background-color: white;
+   min-height: 1000px;
+   width: 610px;
+   padding-left: 150px;
+   padding-right: 150px;
+   margin-left: 190px;
+   margin-top: -158px;
+   padding-top: 20px;
+   padding-bottom: 7px;
+}
+
+
+.content2 {
+   background-color: white;
+   min-height: 647px;
+   width: 700px;
+   padding-left: 130px;
+   padding-right: 105px;
+   margin-left: 189px;
+   margin-top: 20px;
+}
+
+.content3 {
+   background-color: white;
+   min-height: 600px;
+   width: 700px;
+   padding-left: 128px;
+   padding-right: 102px;
+   margin-left: 189px;
+   margin-top: 20px;
+   margin-bottom: 25px;
+}
+
+.content4 {
+   background-color: white;
+   min-height: 670px;
+   width: 700px;
+   padding-left: 132px;
+   padding-right: 150px;
+   margin-left: 189px;
+   margin-top: 40px;
+}
+
+.byline img{
+   height: 95px;
+   width: 95px;
+   margin-left: -16px;
+}
+
+/* Below is the styling for the byline text */
+
+.name {
+   font-family:'Lato';
+   font-size: 1.2em;
+   color: crimson;
+   font-weight: 700;
+   letter-spacing: 60;
+   margin-left: 100px;
+   margin-top: -80px;
+}
+
+.date {
+   font-family: 'Lato';
+   font-size: 1.1em;
+   font-weight: 300;
+   letter-spacing: 50;
+   color: darkslategray;
+   padding-left: 100px;
+   margin-top: 5px;
+}
+
+/* Below is the styling for the story text */
+.story {
+   margin-left: -20px;
+   margin-top: 50px;
+   width: 700px;
+   font-size: 1.2em;
+   font-family: 'Lato';
+   line-height: 175%;
+   font-weight: 300;
+   color: darkslategray;
+   background-color: white;
+}
+
+.content2 p {
+   margin-left: 30px;
+   padding-top: 20px;
+   font-size: 1.2em;
+   font-family: "Lato";
+   line-height: 175%;
+   font-weight: 300; 
+   color: darkslategray;
+   margin: 0;
+}
+
+.content3 p {
+   margin-left: 30px;
+   font-size: 1.2em;
+   font-family: "Lato";
+   line-height: 175%;
+   font-weight: 300;
+   padding-top: 16px;
+   margin: 0;
+}
+
+.content4 p {
+   margin-left: 30px;
+   font-size: 1.2em;
+   font-family: "Lato";
+   line-height: 175%;
+   font-weight: 300;
+   margin-top: 35px;
+   padding-top: 30px;
+   margin: -20px;
+   padding-bottom: 25px;
+}
+
+/* Below is the styling for the video and video description text */
+
+.package video{
+   margin-left: 433px;
+   margin-top: 20px;
+   height: 375px;
+}
+
+.vidtext {
+   background-color: dimgrey;
+   margin-top: -406px;
+   margin-left: 190px;
+   width: 244px;
+   height: 375px;
+}
+.vidtext h2{
+   color: white;
+   font-family: 'Lato';
+   font-size: 2em;
+   font-weight: 700;
+   padding-top: 24px;
+   padding-left: 20px;
+}
+
+.vidtext p{
+   color: white;
+   font-family: 'Lato';
+   font-size: 1.1em;
+   padding-left: 15px;
+   padding-top: 20px;
+   font-weight: 300;
+   line-height: 150%;
+}
+
+/* Below is the styling for the audio rollover boxes (images, caption text) */
+
+#rollover {
+   background-color: white;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   margin-left: 195px;
+   width: 912px;
+   height: 608px;
+   overflow: hidden;
+}
+
+.audiopics {
+   float: left;
+   padding: 2px;
+}
+
+.audiopics img{
+   height: 300px;
+   width: 300px;
+}
+
+.instruct{
+   padding-top: 100px;
+   padding-left: 10px;
+   height: 200px;
+   width: 290px;
+   font-size: 1.7em;
+   font-family: "Lato";
+   font-weight: 300;
+   text-align: center;
+}
+
+.cap1 {
+   position: absolute;
+   background-color: rgb(0,0,0, 0.65);
+   height: 125px;
+   width: 300px;
+   font-size: 1.2em;
+   font-family: "Lato";
+   color: white;
+   text-align: center;
+   margin-top: -138px;
+   display: none;
+   padding-top: 10px; 
+}
+
+.cap1 p{
+   position: absolute;
+   font-size: 1em;
+   font-family: "Lato";
+   color: white;
+   text-align: center;
+   padding-left: 62px;
+}
+
+.cap2 {
+   position: absolute;
+   background-color: rgb(0,0,0, 0.65);
+   height: 125px;
+   width: 300px;
+   font-size: 1.2em;
+   font-family: "Lato";
+   color: white;
+   text-align: center;
+   margin-top: -138px;
+   display: none;
+   padding-top: 10px;
+}
+
+.cap2 p{
+   position: absolute;
+   font-size: 1em;
+   font-family: "Lato";
+   color: white;
+   text-align: center;
+   padding-left: 63px;
+}
+
+.cap3 {
+   position: absolute;
+   margin-top: -140px;
+   background-color: rgb(0,0,0, 0.65);
+   height: 125px;
+   width: 300px;
+   font-size: 1.2em;
+   font-family: "Lato";
+   color: white;
+   text-align: center;
+   display: none;
+   padding-top: 10px;
+}
+
+.cap3 p{
+   position: absolute;
+   font-size: 1em;
+   font-family: "Lato";
+   color: white;
+   text-align: center;
+   padding-left: 55px;
+}
+
+.cap4 {
+   position: absolute;
+   margin-top: -134px;
+   background-color: rgb(0,0,0, 0.65);
+   height: 120px;
+   width: 300px;
+   font-size: 1.2em;
+   font-family: "Lato";
+   color: white;
+   text-align: center;
+   display: none;
+   padding-top: 10px;
+}
+
+.cap4 p{
+   position: absolute;
+   font-size: 1em;
+   font-family: "Lato";
+   color: white;
+   text-align: center;
+   padding-left: 50px;
+}
+
+.cap5 {
+   position: absolute;
+   background-color: rgb(0,0,0, 0.65);
+   margin-top: -142px;
+   height: 125px;
+   width: 300px;
+   font-size: 1.2em;
+   font-family: "Lato";
+   color: white;
+   text-align: center;
+   display: none;
+   padding-top: 10px;
+}
+
+.cap5 p{
+   position: absolute;
+   font-size: 1em;
+   font-family: "Lato";
+   color: white;
+   text-align: center;
+   padding-left: 60px;
+}
+
+/* Below is the styling for the photo caption of the second parallax image */
+
+.piccap {
+   background-color: rgb(0,0,0,0.6);
+   margin-top: -51px;
+   height: 50px;
+   text-align: center;
+   padding-top: 2px;
+}
+
+.piccap p{
+   color: white;
+   font-family: 'Lato';
+   font-weight: 700;
+   font-size: 1.1em;
+   letter-spacing: 1px;
+   font-stretch: 2px
+
+}
+
+/* Below is my attempt at flexbox, but it messed up the full screen view so I removed it */
+/*
+@media only screen and (max-width: 900px) {
+
+#rollover {
+   display: block;
+   width: 60%;
+   height: 120%;
+}
+
+.audiopics img {
+   width: 58%;
+   height: 58%;
+   padding-left: 85px;
+}
+
+.instruct {
+   display: block;
+   width: 58%;
+   height: 58%;
+   padding-left: 85px;
+}
+
+.cap1 {
+   display: block;
+   width: 34.5%;
+   height: 20%;
+   margin-left: 85px;
+   display: none;
+}
+
+.cap1 p{
+   display: block;
+   font-size: .80em;
+   padding-left: -50px;
+}
+
+.cap2 {
+   display: block;
+   width: 34.5%;
+   height: 20%;
+   margin-left: 85px;
+   display: none;
+}
+
+.cap2 p{
+   display: block;
+   font-size: .80em;
+   padding-left: -50px;
+}
+
+.cap3 {
+   display: block;
+   width: 34.5%;
+   height: 20.5%;
+   margin-left: 85px;
+   display: none;
+}
+
+.cap3 p{
+   display: block;
+   font-size: .80em;
+   padding-left: -50px;
+}
+
+.cap4 {
+   display: block;
+   width: 34.5%;
+   height: 19.5%;
+   margin-left: 85px;
+   display: none;
+}
+
+.cap4 p{
+   display: block;
+   font-size: .80em;
+   padding-left: -50px;
+}
+
+.cap5 {
+   display: block;
+   width: 34.5%;
+   height: 20.5%;
+   margin-left: 85px;
+   display: none;
+}
+
+.cap5 p{
+   display: block;
+   font-size: .80em;
+   padding-left: -50px;
+}

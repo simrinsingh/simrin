@@ -1,0 +1,30 @@
+Documentation
+
+Simrin Singh
+Final Project
+J320 Introduction to Coding / Spring 2018
+8 May 2018
+
+
+Summary:
+
+This story revolves around a Skid Row art movement and non-profit organization called the LA Poverty Department. The Department recently hosted a Walk the Talk Parade in Skid Row, honoring those who provide service to those in need. The event aims to bring together the Skid Row community as well as highlight local artists and performers. My webpage includes an interactive audio rollover that presents voices of Skid Row and the LA Poverty Deparment. I also included a text and video story about the impact of art on the neighborhood. 
+
+Notes: 
+
+My webpage has a parallax structure and includes photos from the Walk the Talk parade. The headline and subheadline are purposely left-aligned, so that the words are easier to read, and the picture is easier to view. 
+
+The text story starts at the top, and then stops where the video package is. 
+
+After the video, there is another chunk of the text story. The story stops again, this time for the interactive audio rollover gallery.
+
+The audio rollover gallery features Skid Row locals and LA Poverty Department volunteers. They each talk about how they see the Skid Row community. Some talk about the impact of art and the Poverty Deparment on the homeless population. I edited these audio files in Adobe Audition, and then brought them into the "media" folder of the project. The Javascript allows the captions to slide up and down on the different images, in addition to playing audio.
+
+After the audio rollover gallery is a third chunk of the text story. The story stops again for the second parallax image.
+
+The second parallax image features a Walk the Talk volunteer who is watching a performance at the parade. The image has a caption at the bottom.
+
+After scrolling past the second parallax image, viewers come across the fourth and final chunk of the text story.
+
+Extra Components:
+I tried to do flexbox on the audio rollover section. I got it to collapse at 900px, but the full view of the gallery got messed up when I did that. Because I did not have the time to figure it out, I put the flexbox code in notes to disable it.
